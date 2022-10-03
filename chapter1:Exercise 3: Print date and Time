@@ -1,0 +1,56 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOh8PwraNTzhvkTnJB3gG3r",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MuhammadAwais9092/programming-assignment/blob/main/chapter1%3AExercise%203%3A%20Print%20date%20and%20Time\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from datetime import datetime\n",
+        "now = datetime.now()\n",
+        "print(\"Date and Time is :\", now)\n",
+        "dt_string=now.strftime(\"%D/%M/%Y %H:%M:%S\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Nv9XePtBLtyI",
+        "outputId": "79ed56b4-9150-4e47-f1f7-fbc22e063911"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Date and Time is : 2022-10-03 09:34:12.578902\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
